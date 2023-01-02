@@ -63,8 +63,9 @@ export const Navbar = () => {
         <li className="nav-item ms-2 mt-2">
         <FavoriteBorderOutlinedIcon />
         </li>
-        <li className="nav-item ms-2 mt-2">
+        <li className="nav-item ms-2 mt-2 position-relative">
         <ShoppingCartOutlinedIcon />
+        <span className='bg-primary  w-75 h-75 position-absolute rounded-circle d-flex justify-content-center align-item-center text-white ' style={{top:'-10px',right:'-10px'}}>0</span>
         </li>
       </ul>
       </div>
